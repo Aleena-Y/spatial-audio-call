@@ -73,3 +73,59 @@ button:hover {
 
     opacity: 0.9;
 }
+
+.participants {
+
+    text-align: left;
+
+    background: #151515;
+
+    border: 1px solid #2a2a2a;
+
+    border-radius: 10px;
+
+    padding: 12px;
+}
+
+.participants h3 {
+
+    margin: 0 0 10px;
+
+    font-size: 16px;
+}
+
+.participants ul {
+
+    margin: 0;
+
+    padding-left: 18px;
+}
+
+.participants li {
+
+    margin-bottom: 6px;
+}
+
+.participants li.speaking {
+
+    color: #76ff03;
+
+    font-weight: 700;
+}
+
+.controls {
+
+    display: flex;
+
+    gap: 10px;
+}
+
+.controls button {
+
+    flex: 1;
+}
+
+.mute-btn {
+
+    background: #ff9800;
+}
